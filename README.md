@@ -1,2 +1,2 @@
 # IMR_App
-Bocanet Raluca & Maxim Casiana & Popoiu Andra - IMR3
+Bocăneț Raluca-Andreea & Maxim Casiana & Popoiu Andra-Ștefania - IMR3
