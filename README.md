@@ -9,4 +9,5 @@ Progress Week 11 - https://youtu.be/F_gXaxLkFjc
 
   ● For this week, we implemented the following: the bear narrator can now teleport to all the given environments and deliver lines with distinct scripts tailored for each situation (introduction, forest, pyramids, island, desert, and explaining the game to the child). Additionally, we animated the narrator with idle and talking animations. We also worked on enabling all the necessary adjustments to allow drawing on the board using a pencil.
 
+  ● Also the writing mechanism is in a starting state, worked on the board and pen and we will improve user experience in future.
   ● All features related to the bear narrator can be seen in the accompanying video.
