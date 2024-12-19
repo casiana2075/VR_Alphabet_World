@@ -12,3 +12,17 @@ Progress Week 11 - https://youtu.be/F_gXaxLkFjc
   ● Also the writing mechanism is in a starting state, worked on the board and pen and we will improve user experience in future.
   
   ● All features related to the bear narrator can be seen in the accompanying video.
+
+Progress Week 12:
+
+-Fade-In and Fade-Out Animation for Teleportation:
+We implemented a smooth and simultaneous fade-in and fade-out animation to enhance the teleportation experience. You can see this in the attached video demonstration (https://youtu.be/cyrxy0Nzn6I).
+
+-Alphabet Tracing Guidelines:
+We designed detailed and child-friendly guidelines for each letter of the alphabet entirely from scratch. Progress has been documented through images showcasing the design process and final output.
+![image](https://github.com/user-attachments/assets/fba147cc-cb7b-4bbb-9eab-bb44898d9bd2)
+![image](https://github.com/user-attachments/assets/c247139b-254a-4ae2-9594-724107d8af22)
+
+-Interactive Writing Tools:
+We completed the functionality for both the brush and pencil, allowing children to draw and write directly on the board. Images illustrating this interactive feature highlight how it creates a fun and engaging learning experience.
+![image](https://github.com/user-attachments/assets/e7cec843-f33f-47cd-9000-7eceee6c8875)
