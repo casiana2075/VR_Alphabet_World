@@ -20,9 +20,9 @@ We implemented a smooth and simultaneous fade-in and fade-out animation to enhan
 
   ● Alphabet Tracing Guidelines:
 We designed detailed and child-friendly guidelines for each letter of the alphabet entirely from scratch. Progress has been documented through images showcasing the design process and final output.
-● ![image](https://github.com/user-attachments/assets/fba147cc-cb7b-4bbb-9eab-bb44898d9bd2)
-● ![image](https://github.com/user-attachments/assets/c247139b-254a-4ae2-9594-724107d8af22)
+![image](https://github.com/user-attachments/assets/fba147cc-cb7b-4bbb-9eab-bb44898d9bd2)
+![image](https://github.com/user-attachments/assets/c247139b-254a-4ae2-9594-724107d8af22)
 
  ● Interactive Writing Tools:
 We completed the functionality for both the brush and pencil, allowing children to draw and write directly on the board. Images illustrating this interactive feature highlight how it creates a fun and engaging learning experience.
-● ![image](https://github.com/user-attachments/assets/e7cec843-f33f-47cd-9000-7eceee6c8875)
+![image](https://github.com/user-attachments/assets/e7cec843-f33f-47cd-9000-7eceee6c8875)
