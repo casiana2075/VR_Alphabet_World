@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AlphabetWorld.unity
     guid: c4c7d4d3520fb92499adcee9523408ca
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 04a38cc5346a8374da5ccf7783cde027, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

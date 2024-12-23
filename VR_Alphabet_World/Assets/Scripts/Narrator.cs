@@ -29,6 +29,12 @@ public class NarratorSpeaking : MonoBehaviour
 
     // private float inactivityTimer = 0f;
     // private float inactivityThreshold = 10f;
+    public float fadeDuration = 1f;
+    public Color fadeColor = Color.black;
+    private int fadeDirection = 0;
+    private Texture2D fadeTexture;
+    private float alpha = 0f;
+    private bool isFading = false;
 
     void Start()
     {
@@ -47,6 +53,9 @@ public class NarratorSpeaking : MonoBehaviour
         pyramidsAudio = GameObject.Find("PyramidAudio").GetComponent<AudioSource>();
         player = GameObject.Find("NarratorBear");
         playerCamera = GameObject.Find("XR Origin (XR Rig)");
+        fadeTexture = new Texture2D(1, 1);
+        fadeTexture.SetPixel(0, 0, fadeColor);
+        fadeTexture.Apply();
     }
 
     void Update()
@@ -64,9 +73,8 @@ public class NarratorSpeaking : MonoBehaviour
             }
             audioSource = forestAudio;
             StartCoroutine(TeleportForest( audioSource));
-            audioSource.Play();
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.L))
         {
             if (animator != null)
             {
@@ -79,7 +87,6 @@ public class NarratorSpeaking : MonoBehaviour
             }
             audioSource = desertAudio;
             StartCoroutine(TeleportDesert(audioSource));
-            audioSource.Play();
         }
         else if (Input.GetKeyDown(KeyCode.I))
         {
@@ -94,7 +101,6 @@ public class NarratorSpeaking : MonoBehaviour
             }
             audioSource = islandAudio;
             StartCoroutine(TeleportIsland(audioSource));
-            audioSource.Play();
         }
         else if (Input.GetKeyDown(KeyCode.P))
         {
@@ -109,7 +115,6 @@ public class NarratorSpeaking : MonoBehaviour
             }
             audioSource = pyramidsAudio;
             StartCoroutine(TeleportPyramids(audioSource));
-            audioSource.Play();
 
         }
         else if (Input.GetKeyDown(KeyCode.B))
@@ -169,59 +174,98 @@ public class NarratorSpeaking : MonoBehaviour
 
     IEnumerator TeleportForest(AudioSource audio) 
     {
-        yield return new WaitForSeconds(1);
+        yield return StartCoroutine(FadeOut());
         player.transform.position = teleportDestinationPlayerForest;
         player.transform.rotation = Quaternion.Euler(0, 30, 0);
         if (playerCamera != null && player != null)
         {
             playerCamera.transform.position = teleportDestinationCameraForest + cameraOffset;
         }
-        yield return new WaitForSeconds(3);
+        yield return StartCoroutine(FadeIn());
+        audio.Play();
     }
 
     IEnumerator TeleportDesert(AudioSource audio)
     {
-        yield return new WaitForSeconds(1);
+        yield return StartCoroutine(FadeOut());
         player.transform.position = teleportDestinationPlayerDesert;
         player.transform.rotation = Quaternion.Euler(0, 30, 0);
         if (playerCamera != null && player != null)
         {
             playerCamera.transform.position = teleportDestinationCameraDesert + cameraOffset;
         }
-        yield return new WaitForSeconds(3);
+        yield return StartCoroutine(FadeIn());
+        audio.Play();
     }
 
     IEnumerator TeleportIsland(AudioSource audio)
     {
-        yield return new WaitForSeconds(1);
+        yield return StartCoroutine(FadeOut());
         player.transform.position = teleportDestinationPlayerIsland;
         player.transform.rotation = Quaternion.Euler(0, 0, 0);
         if (playerCamera != null && player != null)
         {
             playerCamera.transform.position = teleportDestinationCameraIsland + cameraOffset;
         }
-        yield return new WaitForSeconds(3);
+        yield return StartCoroutine(FadeIn());
+        audio.Play();
     }
 
     IEnumerator TeleportPyramids(AudioSource audio)
     {
-        yield return new WaitForSeconds(1);
+        yield return StartCoroutine(FadeOut());
         player.transform.position = teleportDestinationPlayerPyramids;
         player.transform.rotation = Quaternion.Euler(0, 40, 0);
         if (playerCamera != null && player != null)
         {
             playerCamera.transform.position = teleportDestinationCameraPyramids + cameraOffset;
         }
-        yield return new WaitForSeconds(3);
+        yield return StartCoroutine(FadeIn());
+        audio.Play();
     }
 
     IEnumerator TeleportBack()
     {
-        yield return new WaitForSeconds(1);
+        yield return StartCoroutine(FadeOut());
         player.transform.position = initialPosition;
         if (playerCamera != null && player != null)
         {
             playerCamera.transform.position =cameraOffset + (new Vector3(0, 1, 0));
+        }
+        yield return StartCoroutine(FadeIn());
+        GetComponent<AudioSource>().Play();
+    }
+
+    IEnumerator FadeOut()
+    {
+        isFading = true;
+        fadeDirection = 1;
+        while (alpha < 1f)
+        {
+            alpha += Time.deltaTime / fadeDuration;
+            alpha = Mathf.Clamp01(alpha);
+            yield return null;
+        }
+    }
+
+    IEnumerator FadeIn()
+    {
+        fadeDirection = -1;
+        while (alpha > 0f)
+        {
+            alpha -= Time.deltaTime / fadeDuration;
+            alpha = Mathf.Clamp01(alpha);
+            yield return null;
+        }
+        isFading = false;
+    }
+
+    void OnGUI()
+    {
+        if (isFading)
+        {
+            GUI.color = new Color(1, 1, 1, alpha);
+            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
         }
     }
 }
