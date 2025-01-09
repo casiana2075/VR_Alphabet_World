@@ -26,3 +26,11 @@ We designed detailed and child-friendly guidelines for each letter of the alphab
  ● Interactive Writing Tools:
 Interactive Writing Tools: We completed the functionality for both the brush and pencil, allowing children to draw and write directly on the board. We also implemented a Shader Graph for the whiteboard, enabling more dynamic and visually appealing effects. Images illustrating these interactive features highlight how they create a fun and engaging learning experience.
 ![image](https://github.com/user-attachments/assets/e7cec843-f33f-47cd-9000-7eceee6c8875)
+
+**Progress Week 13**:
+
+  ● This week, we created a cutscene for the application's intro using Unity's timeline. The timeline integrates sound, character animation, and recorded camera movements to establish an immersive introduction.
+
+  ● We also implemented grab interactions and hand animations in Unity to enhance user experience, making interactions more natural and engaging.
+
+  ● The writing mechanism on the board is currently in progress. Users can start writing letters on the board with a pen, but we plan to refine and improve this feature for a smoother experience.
