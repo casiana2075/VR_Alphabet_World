@@ -29,7 +29,7 @@ Interactive Writing Tools: We completed the functionality for both the brush and
 
 **Progress Week 13**:
 
-  ● This week, we created a cutscene for the application's intro using Unity's timeline. The timeline integrates sound, character animation, and recorded camera movements to establish an immersive introduction.
+  ● This week, we created a cutscene for the application's intro using Unity's timeline. The timeline integrates sound, character animation, and recorded camera movements to establish an immersive introduction. (https://youtu.be/dItrqCMl9ys)
 
   ● We also implemented grab interactions and hand animations in Unity to enhance user experience, making interactions more natural and engaging.
 
