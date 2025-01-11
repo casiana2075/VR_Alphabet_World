@@ -32,5 +32,12 @@ Interactive Writing Tools: We completed the functionality for both the brush and
   ● This week, we created a cutscene for the application's intro using Unity's timeline. The timeline integrates sound, character animation, and recorded camera movements to establish an immersive introduction. (https://youtu.be/dItrqCMl9ys)
 
   ● We also implemented grab interactions and hand animations in Unity to enhance user experience, making interactions more natural and engaging.
+(https://github.com/user-attachments/assets/abc77189-4881-49cb-8b94-359983f57819)
+![image](https://github.com/user-attachments/assets/a64abbca-a1f1-488e-9cbd-3b08aee60cdc)
+
+
 
   ● The writing mechanism on the board is currently in progress. Users can start writing letters on the board with a pen, but we plan to refine and improve this feature for a smoother experience.
+
+
+
