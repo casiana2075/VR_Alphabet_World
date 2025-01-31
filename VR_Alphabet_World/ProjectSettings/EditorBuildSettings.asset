@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Copie.unity
+    guid: ac89c4dea6a7c774e86d2733cf58d181
   - enabled: 1
     path: Assets/AlphabetWorld.unity
     guid: c4c7d4d3520fb92499adcee9523408ca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:

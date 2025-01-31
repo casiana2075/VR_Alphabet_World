@@ -1,0 +1,2 @@
+E:\Facultate\an3\IMR\VR_Alphabet_World-raluca\VR_Alphabet_World-raluca\VR_Alphabet_World-raluca\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+E:\Facultate\an3\IMR\VR_Alphabet_World-raluca\VR_Alphabet_World-raluca\VR_Alphabet_World-raluca\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

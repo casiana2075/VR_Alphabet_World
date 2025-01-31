@@ -1,0 +1,10 @@
+# ninja log v5
+27	2050	7587423574653876	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b2d8b6f9f936398a
+35	2085	7587423575029279	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a5bf676dd1f35008
+0	2093	7587423575161434	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	34baac91614403a1
+56	2205	7587423576249213	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	72876e329048477c
+66	2309	7587423577331572	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f360ba0d4c99a49f
+18	2429	7587423578528098	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f0d7451424ff81f
+45	2675	7587423581078938	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4458dc4f25b9c690
+10	2883	7587423583100394	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8ecdb99b2108bcac
+2883	3056	7587423584931956	E:/Facultate/an3/IMR/VR_Alphabet_World-raluca/VR_Alphabet_World-raluca/VR_Alphabet_World/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3l3bk4e6/obj/arm64-v8a/libgame.so	38e60a7f55f50cea
