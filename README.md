@@ -1,46 +1,59 @@
-# Alphabet World - VR Game
-Bocăneț Raluca-Andreea & Maxim Casiana & Popoiu Andra-Ștefania - IMR3
+# 📝 Alphabet World - VR Game Logic and Purpose  
+*Authors*:Bocăneț Raluca-Andreea & Maxim Casiana & Popoiu Andra-Ștefania
 
-**Progress video Week 7**: https://youtu.be/eOuIIhL2H7o
+## 🎯 Purpose  
 
-**Progress Week 10**: done the script of the narrator bear, animations on narrator-bear and hands, added in unity some colliders, grabbers for room environment, and fix the XR Origin
+**Alphabet World** is an **interactive educational game** designed to help children learn to write letters with the guidance of an animated bear character.  
 
-**Progress Week 11** - https://youtu.be/F_gXaxLkFjc
+- As children correctly write six letters, they are **rewarded** by being **teleported to a magical forest**, where they must catch the letters they wrote.  
+- The letters **fly away** when the child gets close, adding an element of **fun and challenge** to reinforce learning.  
 
-  ● For this week, we implemented the following: the bear narrator can now teleport to all the given environments and deliver lines with distinct scripts tailored for each situation (introduction, forest, pyramids, island, desert, and explaining the game to the child). Additionally, we animated the narrator with idle and talking animations. We also worked on enabling all the necessary adjustments to allow drawing on the board using a pencil.
+---
 
-  ● Also the writing mechanism is in a starting state, worked on the board and pen and we will improve user experience in the future.
-  
-  ● All features related to the bear narrator can be seen in the accompanying video.
+## 🎮 Game Logic  
 
-**Progress Week 12**:
+1️⃣ **Guided Learning:**  
+   - The game begins with an **animated bear** guiding the child through the **learning process**.  
+   - The bear explains **where to find writing tools** and what steps to take.  
 
-  ● Fade-In and Fade-Out Animation for Teleportation:
-We implemented a smooth and simultaneous fade-in and fade-out animation to enhance the teleportation experience. You can see this in the attached video demonstration (https://youtu.be/cyrxy0Nzn6I).
+2️⃣ **Writing Practice:**  
+   - All **26 letters** are displayed in the starting room, allowing interaction via **hover mechanics**.  
+   - The child picks up a **writing tool** (e.g., **pencil or brush**) and follows **numbered guides** to correctly form each letter.  
 
-  ● Alphabet Tracing Guidelines:
-We designed detailed and child-friendly guidelines for each letter of the alphabet entirely from scratch. Progress has been documented through images showcasing the design process and final output.
-![image](https://github.com/user-attachments/assets/fba147cc-cb7b-4bbb-9eab-bb44898d9bd2)
-![image](https://github.com/user-attachments/assets/c247139b-254a-4ae2-9594-724107d8af22)
+3️⃣ **Magical Reward System:**  
+   - After successfully writing **six letters**, the child is **teleported to a magical forest**, where the letters **come to life and start flying away**.  
+   - The child must **chase and catch** the letters to **complete the level**.  
 
- ● Interactive Writing Tools:
-Interactive Writing Tools: We completed the functionality for both the brush and pencil, allowing children to draw and write directly on the board. We also implemented a Shader Graph for the whiteboard, enabling more dynamic and visually appealing effects. Images illustrating these interactive features highlight how they create a fun and engaging learning experience.
-![image](https://github.com/user-attachments/assets/e7cec843-f33f-47cd-9000-7eceee6c8875)
+4️⃣ **Continuous Learning Cycle:**  
+   - Once the letters are caught, the child is **transported back** to the learning room to continue practicing new letters.  
+   - This creates an **engaging and interactive cycle** of **learning and play**.  
 
-**Progress Week 13**:
+---
 
-  ● This week, we created a cutscene for the application's intro using Unity's timeline. The timeline integrates sound, character animation, and recorded camera movements to establish an immersive introduction. (https://youtu.be/dItrqCMl9ys)
+## 🛠 Features  
 
-  ● We also implemented grab interactions and hand animations in Unity to enhance user experience, making interactions more natural and engaging.
-(https://github.com/user-attachments/assets/abc77189-4881-49cb-8b94-359983f57819)
+✅ **Animated Bear Guide** for an interactive learning experience.  
+✅ **Hover Mechanics** to explore all 26 letters.  
+✅ **Numbered Writing Guides** to help form letters correctly.  
+✅ **Reward System** with teleportation to a magical world.  
+✅ **Engaging Challenges** by chasing flying letters.  
 
-![image](https://github.com/user-attachments/assets/a64abbca-a1f1-488e-9cbd-3b08aee60cdc)
+---
 
+## 🎮 How to Play  
 
+1. **Start the game** and follow the **animated bear’s instructions**.  
+2. **Choose a writing tool** (pencil, brush) and select a letter to practice.  
+3. **Follow the guides** to write the letter correctly.  
+4. **Complete six letters** to unlock the magical forest.  
+5. **Chase and catch** the flying letters to complete the level.  
+6. **Return to the learning room** and repeat with new letters!  
 
-  ● The writing mechanism on the board is currently in progress. Users can start writing letters on the board with a pen, but we plan to refine and improve this feature for a smoother experience.
+---
 
 #  Demo of the game: https://youtu.be/oJhSIRyGRHg
+
+
 
 
 
