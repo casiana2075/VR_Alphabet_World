@@ -1,5 +1,5 @@
 # 📝 Alphabet World - VR Game Logic and Purpose  
-*Authors*:Bocăneț Raluca-Andreea & Maxim Casiana & Popoiu Andra-Ștefania
+**Authors:** Bocăneț Raluca-Andreea & Maxim Casiana & Popoiu Andra-Ștefania
 
 ## 🎯 Purpose  
 
